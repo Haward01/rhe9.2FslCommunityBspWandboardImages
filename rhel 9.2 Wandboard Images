@@ -1,0 +1,13 @@
+#build Wandboard Images for Fsl Community Bsp for rhel 9.2
+#Download the BSP source from fsl-community-bsp-platform
+install perl-open.noarch
+install perl-FindBin.noarch
+
+#Building Wandboard images
+MACHINE=wandboard DISTRO=poky source setup-environment wandboard
+bitbake core-image-minimal
+
+
+
+
+
