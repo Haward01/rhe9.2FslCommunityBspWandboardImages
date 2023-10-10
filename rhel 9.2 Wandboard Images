@@ -1,4 +1,3 @@
-#build Wandboard Images for Fsl Community Bsp for rhel 9.2
 #Download the BSP source from fsl-community-bsp-platform
 sudo dnf install perl-open.noarch
 sudo dbf install perl-FindBin.noarch
